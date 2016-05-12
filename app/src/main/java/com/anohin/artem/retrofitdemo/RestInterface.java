@@ -1,8 +1,7 @@
 package com.anohin.artem.retrofitdemo;
 
-import com.anohin.artem.retrofitdemo.Model.League;
-import com.anohin.artem.retrofitdemo.Model.Match;
-import com.anohin.artem.retrofitdemo.Model.Model;
+import com.anohin.artem.retrofitdemo.POJO.Match;
+import com.anohin.artem.retrofitdemo.POJO.Model;
 
 import retrofit.Call;
 import retrofit.http.GET;
@@ -12,6 +11,6 @@ import retrofit.http.GET;
  */
 public interface RestInterface {
     @GET("/match-api")
-    Call<Match> getMatchReport();
+    Call<Model> getMatchReport();
 }
 

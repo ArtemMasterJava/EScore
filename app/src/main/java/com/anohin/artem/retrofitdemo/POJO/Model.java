@@ -25,7 +25,7 @@ public class Model {
      * @return
      *     The matches
      */
-    public List<Match> getMatches() {
+    public String[] getMatches() {
         return matches;
     }
 
